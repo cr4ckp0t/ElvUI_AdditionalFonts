@@ -1,0 +1,8 @@
+## Interface: 80300
+## Author: Crackpotx
+## Version: 0.0.1
+## Title: |cff1784d1ElvUI|r Additional Fonts
+## Notes: Adds additional fonts to ElvUI.
+## RequiredDeps: ElvUI
+
+ElvUI_AdditionalFonts.lua
