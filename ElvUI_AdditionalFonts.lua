@@ -52,7 +52,7 @@ LSM:Register("font", "SSP Regular", paths.sourcesanspro .. "SourceSansPro-Regula
 LSM:Register("font", "SSP Semibold", paths.sourcesanspro .. "SourceSansPro-Semibold.ttf", 255)
 
 -- source serif pro
--- https://github.com/adobe-fonts/source-serif-pro
+-- from: https://github.com/adobe-fonts/source-serif-pro
 LSM:Register("font", "SSerP Black", paths.sourceserifpro .. "SourceSerifPro-Black.ttf", 255)
 LSM:Register("font", "SSerP Bold", paths.sourceserifpro .. "SourceSerifPro-Bold.ttf", 255)
 LSM:Register("font", "SSerP ExtraLight", paths.sourceserifpro .. "SourceSerifPro-ExtraLight.ttf", 255)
