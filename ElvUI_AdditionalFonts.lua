@@ -4,59 +4,48 @@
 local E, _, V, P, G = unpack(ElvUI)
 local LSM = E.Libs.LSM
 
-local westAndRU = 255
-local fontPath = [[Interface\Addons\ElvUI_AdditionalFonts\Fonts\]]
-local paths = {
-	lucon = [[Interface\Addons\ElvUI_AdditionalFonts\Fonts\Lucon\]],
-	opensans = [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\]],
-	pepsi = [[Interface\Addons\ElvUI_AdditionalFonts\Fonts\Pepsi\]],
-	sourcecodepro = [[Interface\Addons\ElvUI_AdditionalFonts\Fonts\SourceCodePro\]],
-	sourcesanspro = [[Interface\Addons\ElvUI_AdditionalFonts\Fonts\SourceSansPro\]],
-	sourceserifpro = [[Interface\Addons\ElvUI_AdditionalFonts\Fonts\SourceSerifPro\]],
-}
-
--- lucida console
--- from: Windows Default Fonts
-LSM:Register("font", "Lucida Console", paths.lucon .. "lucon.ttf", 255)
-
--- open sans
--- from: https://fonts.google.com/specimen/Open+Sans
-LSM:Register("font", "OS Bold", paths.opensans .. "OpenSans-Bold.ttf", 255)
-LSM:Register("font", "OS Extra Bold", paths.opensans .. "OpenSans-ExtraBold.ttf", 255)
-LSM:Register("font", "OS Italic", paths.opensans .. "OpenSans-Italic.ttf", 255)
-LSM:Register("font", "OS Light", paths.opensans .. "OpenSans-Light.ttf", 255)
-LSM:Register("font", "OS Regular", paths.opensans .. "OpenSans-Regular.ttf", 255)
-LSM:Register("font", "OS SemiBold", paths.opensans .. "OpenSans-SemiBold.ttf", 255)
-
--- pepsi
--- from: https://www.dafont.com/pepsi.font
-LSM:Register("font", "Pepsi", paths.pepsi .. "PEPSI.ttf", 255)
-
--- source code pro
--- from: https://github.com/adobe-fonts/source-code-pro
-LSM:Register("font", "SCP Black", paths.sourcecodepro .. "SourceCodePro-Black.ttf", 255)
-LSM:Register("font", "SCP Bold", paths.sourcecodepro .. "SourceCodePro-Bold.ttf", 255)
-LSM:Register("font", "SCP Extra Light", paths.sourcecodepro .. "SourceCodePro-ExtraLight.ttf", 255)
-LSM:Register("font", "SCP Light", paths.sourcecodepro .. "SourceCodePro-Light.ttf", 255)
-LSM:Register("font", "SCP Regular", paths.sourcecodepro .. "SourceCodePro-Regular.ttf", 255)
-LSM:Register("font", "SCP Semibold", paths.sourcecodepro .. "SourceCodePro-Semibold.ttf", 255)
-
--- source sans pro
--- from: https://github.com/adobe-fonts/source-sans-pro
-LSM:Register("font", "SSP Black", paths.sourcesanspro .. "SourceSansPro-Black.ttf", 255)
-LSM:Register("font", "SSP Bold", paths.sourcesanspro .. "SourceSansPro-Bold.ttf", 255)
-LSM:Register("font", "SSP Extra Light", paths.sourcesanspro .. "SourceSansPro-ExtraLight.ttf", 255)
-LSM:Register("font", "SSP Italic", paths.sourcesanspro .. "SourceSansPro-It.ttf", 255)
-LSM:Register("font", "SSP Light", paths.sourcesanspro .. "SourceSansPro-Light.ttf", 255)
-LSM:Register("font", "SSP Regular", paths.sourcesanspro .. "SourceSansPro-Regular.ttf", 255)
-LSM:Register("font", "SSP Semibold", paths.sourcesanspro .. "SourceSansPro-Semibold.ttf", 255)
-
--- source serif pro
--- from: https://github.com/adobe-fonts/source-serif-pro
-LSM:Register("font", "SSerP Black", paths.sourceserifpro .. "SourceSerifPro-Black.ttf", 255)
-LSM:Register("font", "SSerP Bold", paths.sourceserifpro .. "SourceSerifPro-Bold.ttf", 255)
-LSM:Register("font", "SSerP ExtraLight", paths.sourceserifpro .. "SourceSerifPro-ExtraLight.ttf", 255)
-LSM:Register("font", "SSerP Italic", paths.sourceserifpro .. "SourceSerifPro-It.ttf", 255)
-LSM:Register("font", "SSerP Light", paths.sourceserifpro .. "SourceSerifPro-Light.ttf", 255)
-LSM:Register("font", "SSerP Regular", paths.sourceserifpro .. "SourceSerifPro-Regular.ttf", 255)
-LSM:Register("font", "SSerP Semibold", paths.sourceserifpro .. "SourceSerifPro-Semibold.ttf", 255)
+-- file automatically generated via python script
+LSM:Register("font", "FantasqueSansMono Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FantasqueSansMono\FantasqueSansMono-Bold.ttf]], 255)
+LSM:Register("font", "FantasqueSansMono BoldItalic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FantasqueSansMono\FantasqueSansMono-BoldItalic.ttf]], 255)
+LSM:Register("font", "FantasqueSansMono Italic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FantasqueSansMono\FantasqueSansMono-Italic.ttf]], 255)
+LSM:Register("font", "FantasqueSansMono Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FantasqueSansMono\FantasqueSansMono-Regular.ttf]], 255)
+LSM:Register("font", "FiraCode Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-Bold.ttf]], 255)
+LSM:Register("font", "FiraCode Light", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-Light.ttf]], 255)
+LSM:Register("font", "FiraCode Medium", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-Medium.ttf]], 255)
+LSM:Register("font", "FiraCode Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-Regular.ttf]], 255)
+LSM:Register("font", "FiraCode Retina", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-Retina.ttf]], 255)
+LSM:Register("font", "FiraCode SemiBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-SemiBold.ttf]], 255)
+LSM:Register("font", "Hack Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Hack\Hack-Bold.ttf]], 255)
+LSM:Register("font", "Hack BoldItalic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Hack\Hack-BoldItalic.ttf]], 255)
+LSM:Register("font", "Hack Italic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Hack\Hack-Italic.ttf]], 255)
+LSM:Register("font", "Hack Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Hack\Hack-Regular.ttf]], 255)
+LSM:Register("font", "Inconsolata", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inconsolata\Inconsolata.otf]], 255)
+LSM:Register("font", "OpenSans Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Bold.ttf]], 255)
+LSM:Register("font", "OpenSans ExtraBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-ExtraBold.ttf]], 255)
+LSM:Register("font", "OpenSans Italic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Italic.ttf]], 255)
+LSM:Register("font", "OpenSans Light", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Light.ttf]], 255)
+LSM:Register("font", "OpenSans Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Regular.ttf]], 255)
+LSM:Register("font", "OpenSans SemiBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-SemiBold.ttf]], 255)
+LSM:Register("font", "PEPSI", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Pepsi\PEPSI.ttf]], 255)
+LSM:Register("font", "SourceCodePro Black", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-Black.ttf]], 255)
+LSM:Register("font", "SourceCodePro Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-Bold.ttf]], 255)
+LSM:Register("font", "SourceCodePro ExtraLight", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-ExtraLight.ttf]], 255)
+LSM:Register("font", "SourceCodePro Light", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-Light.ttf]], 255)
+LSM:Register("font", "SourceCodePro Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-Regular.ttf]], 255)
+LSM:Register("font", "SourceCodePro Semibold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-Semibold.ttf]], 255)
+LSM:Register("font", "SourceSansPro Black", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSansPro\SourceSansPro-Black.ttf]], 255)
+LSM:Register("font", "SourceSansPro Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSansPro\SourceSansPro-Bold.ttf]], 255)
+LSM:Register("font", "SourceSansPro ExtraLight", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSansPro\SourceSansPro-ExtraLight.ttf]], 255)
+LSM:Register("font", "SourceSansPro It", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSansPro\SourceSansPro-It.ttf]], 255)
+LSM:Register("font", "SourceSansPro Light", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSansPro\SourceSansPro-Light.ttf]], 255)
+LSM:Register("font", "SourceSansPro Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSansPro\SourceSansPro-Regular.ttf]], 255)
+LSM:Register("font", "SourceSansPro Semibold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSansPro\SourceSansPro-Semibold.ttf]], 255)
+LSM:Register("font", "SourceSerifPro Black", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSerifPro\SourceSerifPro-Black.ttf]], 255)
+LSM:Register("font", "SourceSerifPro Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSerifPro\SourceSerifPro-Bold.ttf]], 255)
+LSM:Register("font", "SourceSerifPro ExtraLight", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSerifPro\SourceSerifPro-ExtraLight.ttf]], 255)
+LSM:Register("font", "SourceSerifPro It", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSerifPro\SourceSerifPro-It.ttf]], 255)
+LSM:Register("font", "SourceSerifPro Light", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSerifPro\SourceSerifPro-Light.ttf]], 255)
+LSM:Register("font", "SourceSerifPro Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSerifPro\SourceSerifPro-Regular.ttf]], 255)
+LSM:Register("font", "SourceSerifPro Semibold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceSerifPro\SourceSerifPro-Semibold.ttf]], 255)
+LSM:Register("font", "_decterm", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\DECTerminalModern\_decterm.ttf]], 255)
+LSM:Register("font", "lucon", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Lucon\lucon.ttf]], 255)
