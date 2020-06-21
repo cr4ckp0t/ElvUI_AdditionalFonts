@@ -15,7 +15,7 @@ local LSM = E.Libs.LSM
 -- file automatically generated via python script
 '''
 baseDir = os.path.join(getScriptPath(), "Fonts")
-template = "LSM:Register(\"font\", \"%s\", [[%s\%s]], 255)\n"
+template = 'LSM:Register("font", "%s", [[%s\\%s]], 255)\n'
 outFile = os.path.join(getScriptPath(), "ElvUI_AdditionalFonts.lua")
 
 if os.path.exists(outFile):
