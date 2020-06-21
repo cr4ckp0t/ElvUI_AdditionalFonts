@@ -15,7 +15,7 @@ local LSM = E.Libs.LSM
 -- file automatically generated via python script
 '''
 baseDir = os.path.join(getScriptPath(), "Fonts")
-template = r"LSM:Register(\"font\", \"%s\", [[%s\%s]], 255)\n"
+template = "LSM:Register(\"font\", \"%s\", [[%s\%s]], 255)\n"
 outFile = os.path.join(getScriptPath(), "ElvUI_AdditionalFonts.lua")
 
 if os.path.exists(outFile):
@@ -31,16 +31,17 @@ fontList = []
 
 for dir, subdirs, files in os.walk(baseDir):
 	for name in files:
-		if name.endswith(".ttf") or name.endswith(".otf"):
-			nameFormatted = name.replace("-", " ").replace(".ttf", "").replace(".otf", "")
+		if name.lower().endswith(".ttf") or name.lower().endswith(".otf"):
+			nameFormatted = name.replace("-", " ").replace(".ttf", "").replace(".otf", "").replace("_", "")
 			print("Adding Font %s" % nameFormatted)
 			fontList.append(template % (nameFormatted, dir.replace("G:\\World of Warcraft\\_retail_\\", ""), name))
 
 if len(fontList) > 0:
 	fontList.sort()
 	print("Writing ElvUI_AdditionalFonts.lua")
-	f = open(outFile, "a+", encoding="utf-8")
-	f.write(fileFormat)
-	f.writelines(fontList)
-	f.close()
+	with open(outFile, "a+", encoding="utf-8") as f:
+		f.write(fileFormat)
+		for font in fontList:
+			f.write(font)
+
 	print("Done!")
