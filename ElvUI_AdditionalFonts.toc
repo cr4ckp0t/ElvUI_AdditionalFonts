@@ -1,7 +1,7 @@
-## Interface: 90001
+## Interface: 90002
 ## Author: Crackpotx
-## Version: 1.4.0
 ## Title: |cff1784d1ElvUI|r Additional Fonts
+## Version: 1.4.1
 ## Notes: Adds additional fonts to ElvUI.
 ## RequiredDeps: ElvUI
 
