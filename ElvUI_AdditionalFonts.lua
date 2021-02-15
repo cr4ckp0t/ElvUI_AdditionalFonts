@@ -5,6 +5,9 @@ local E, _, V, P, G = unpack(ElvUI)
 local LSM = E.Libs.LSM
 
 -- file automatically generated via python script
+LSM:Register("font", "AvantGarde Bold.TTF", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\AvantGarde\AvantGarde Bold.TTF]], 255)
+LSM:Register("font", "AvantGarde Italic.TTF", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\AvantGarde\AvantGarde Italic.TTF]], 255)
+LSM:Register("font", "AvantGarde.TTF", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\AvantGarde\AvantGarde.TTF]], 255)
 LSM:Register("font", "BADABB", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\BadaboomBB\BADABB__.ttf]], 255)
 LSM:Register("font", "FantasqueSansMono Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FantasqueSansMono\FantasqueSansMono-Bold.ttf]], 255)
 LSM:Register("font", "FantasqueSansMono BoldItalic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FantasqueSansMono\FantasqueSansMono-BoldItalic.ttf]], 255)
