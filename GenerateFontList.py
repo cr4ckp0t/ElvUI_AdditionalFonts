@@ -7,7 +7,7 @@ def getScriptPath():
 	return os.path.dirname(os.path.realpath(sys.argv[0]))
 
 fileFormat = '''-------------------------------------------------------------------------------
--- ElvUI Additional Fonts By Crackpot (US, Thrall)
+-- ElvUI Additional Fonts By Crackpot (US, Arthas)
 -------------------------------------------------------------------------------
 local E, _, V, P, G = unpack(ElvUI)
 local LSM = E.Libs.LSM

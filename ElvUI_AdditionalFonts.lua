@@ -1,11 +1,12 @@
 -------------------------------------------------------------------------------
--- ElvUI Additional Fonts By Crackpot (US, Thrall)
+-- ElvUI Additional Fonts By Crackpot (US, Arthas)
 -------------------------------------------------------------------------------
 local E, _, V, P, G = unpack(ElvUI)
 local LSM = E.Libs.LSM
 
 -- file automatically generated via python script
 LSM:Register("font", "AvantGarde Bold.TTF", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\AvantGarde\AvantGarde Bold.TTF]], 255)
+LSM:Register("font", "AvantGarde Gothic Medium", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\AvantGarde\AvantGarde Gothic Medium.ttf]], 255)
 LSM:Register("font", "AvantGarde Italic.TTF", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\AvantGarde\AvantGarde Italic.TTF]], 255)
 LSM:Register("font", "AvantGarde.TTF", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\AvantGarde\AvantGarde.TTF]], 255)
 LSM:Register("font", "BADABB", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\BadaboomBB\BADABB__.ttf]], 255)
@@ -19,6 +20,7 @@ LSM:Register("font", "FiraCode Medium", [[Interface\AddOns\ElvUI_AdditionalFonts
 LSM:Register("font", "FiraCode Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-Regular.ttf]], 255)
 LSM:Register("font", "FiraCode Retina", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-Retina.ttf]], 255)
 LSM:Register("font", "FiraCode SemiBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\FiraCode\FiraCode-SemiBold.ttf]], 255)
+LSM:Register("font", "Gotham Narrow Ultra", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Gotham Narrow Ultra\Gotham Narrow Ultra.otf]], 255)
 LSM:Register("font", "HARRYP", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\HarryP\HARRYP__.ttf]], 255)
 LSM:Register("font", "Hack Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Hack\Hack-Bold.ttf]], 255)
 LSM:Register("font", "Hack BoldItalic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Hack\Hack-BoldItalic.ttf]], 255)
