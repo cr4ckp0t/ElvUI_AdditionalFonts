@@ -33,6 +33,7 @@ LSM:Register("font", "OpenSans Italic", [[Interface\AddOns\ElvUI_AdditionalFonts
 LSM:Register("font", "OpenSans Light", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Light.ttf]], 255)
 LSM:Register("font", "OpenSans Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Regular.ttf]], 255)
 LSM:Register("font", "OpenSans SemiBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-SemiBold.ttf]], 255)
+LSM:Register("font", "PEPSI (Modified)", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Pepsi (Modified)\PEPSI (Modified).ttf]], 255)
 LSM:Register("font", "PEPSI", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Pepsi\PEPSI.ttf]], 255)
 LSM:Register("font", "Roboto Black", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Roboto\Roboto-Black.ttf]], 255)
 LSM:Register("font", "Roboto BlackItalic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Roboto\Roboto-BlackItalic.ttf]], 255)
