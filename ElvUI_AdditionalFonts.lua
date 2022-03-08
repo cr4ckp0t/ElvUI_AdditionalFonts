@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
--- ElvUI Additional Fonts By Crackpot (US, Arthas)
+-- ElvUI Additional Fonts By Crackpot (US, Illidan)
 -------------------------------------------------------------------------------
 local E, _, V, P, G = unpack(ElvUI)
 local LSM = E.Libs.LSM
@@ -27,6 +27,15 @@ LSM:Register("font", "Hack BoldItalic", [[Interface\AddOns\ElvUI_AdditionalFonts
 LSM:Register("font", "Hack Italic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Hack\Hack-Italic.ttf]], 255)
 LSM:Register("font", "Hack Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Hack\Hack-Regular.ttf]], 255)
 LSM:Register("font", "Inconsolata", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inconsolata\Inconsolata.otf]], 255)
+LSM:Register("font", "Inter Black", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-Black.ttf]], 255)
+LSM:Register("font", "Inter Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-Bold.ttf]], 255)
+LSM:Register("font", "Inter ExtraBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-ExtraBold.ttf]], 255)
+LSM:Register("font", "Inter ExtraLight", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-ExtraLight.ttf]], 255)
+LSM:Register("font", "Inter Light", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-Light.ttf]], 255)
+LSM:Register("font", "Inter Medium", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-Medium.ttf]], 255)
+LSM:Register("font", "Inter Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-Regular.ttf]], 255)
+LSM:Register("font", "Inter SemiBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-SemiBold.ttf]], 255)
+LSM:Register("font", "Inter Thin", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-Thin.ttf]], 255)
 LSM:Register("font", "OpenSans Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Bold.ttf]], 255)
 LSM:Register("font", "OpenSans ExtraBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-ExtraBold.ttf]], 255)
 LSM:Register("font", "OpenSans Italic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Italic.ttf]], 255)
