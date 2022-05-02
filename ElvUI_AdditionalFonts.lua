@@ -60,6 +60,7 @@ LSM:Register("font", "Roboto MediumItalic", [[Interface\AddOns\ElvUI_AdditionalF
 LSM:Register("font", "Roboto Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Roboto\Roboto-Regular.ttf]], 255)
 LSM:Register("font", "Roboto Thin", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Roboto\Roboto-Thin.ttf]], 255)
 LSM:Register("font", "Roboto ThinItalic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Roboto\Roboto-ThinItalic.ttf]], 255)
+LSM:Register("font", "RusAvantGarde", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\RusAvantGarde\RusAvantGarde.otf]], 255)
 LSM:Register("font", "SourceCodePro Black", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-Black.ttf]], 255)
 LSM:Register("font", "SourceCodePro Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-Bold.ttf]], 255)
 LSM:Register("font", "SourceCodePro ExtraLight", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\SourceCodePro\SourceCodePro-ExtraLight.ttf]], 255)
