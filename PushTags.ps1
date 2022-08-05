@@ -18,6 +18,7 @@ if (Test-Path -Path $tocFile) {
     }
     # .*_(\d+(\.\d+){1,3})
     if ($contents[$i] -match "## Version: (\d+\.\d+\.\d+)") {
+		git add .
 		git commit -a -m $CommitMessage
 		git push origin --tags
         git tag -a $Matches[1] -m ("{0} Release" -f $Matches[1])
