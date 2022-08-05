@@ -1,7 +1,7 @@
 ## Interface: 90205
 ## Author: Crackpot
 ## Title: |cff1784d1ElvUI|r Additional Fonts
-## Version: 1.6.0
+## Version: 1.6.1
 ## Notes: Adds additional fonts to ElvUI.
 ## RequiredDeps: ElvUI
 
