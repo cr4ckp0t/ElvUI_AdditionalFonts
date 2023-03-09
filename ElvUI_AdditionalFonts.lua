@@ -36,6 +36,7 @@ LSM:Register("font", "Inter Medium", [[Interface\AddOns\ElvUI_AdditionalFonts\Fo
 LSM:Register("font", "Inter Regular", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-Regular.ttf]], 255)
 LSM:Register("font", "Inter SemiBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-SemiBold.ttf]], 255)
 LSM:Register("font", "Inter Thin", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Inter\Inter-Thin.ttf]], 255)
+LSM:Register("font", "Monaco", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\Monaco\Monaco.ttf]], 255)
 LSM:Register("font", "OpenSans Bold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Bold.ttf]], 255)
 LSM:Register("font", "OpenSans ExtraBold", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-ExtraBold.ttf]], 255)
 LSM:Register("font", "OpenSans Italic", [[Interface\AddOns\ElvUI_AdditionalFonts\Fonts\OpenSans\OpenSans-Italic.ttf]], 255)
