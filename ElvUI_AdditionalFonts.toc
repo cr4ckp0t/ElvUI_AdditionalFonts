@@ -1,16 +1,10 @@
 ## Interface: 100107
 ## Author: Crackpot
-## Title: |cff1784d1ElvUI|r Additional Fonts
-## Version: 1.7.3
+## Title: ElvUI Additional Fonts
+## IconTexture: Interface\AddOns\ElvUI_AdditionalFonts\Media\crackpot
+## Version: 1.7.4
 ## Notes: Adds additional fonts to ElvUI.
 ## RequiredDeps: ElvUI
 
 ElvUI_AdditionalFonts.lua
-
-
-
-
-
-
-
 
