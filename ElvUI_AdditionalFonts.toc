@@ -2,10 +2,8 @@
 ## Author: Crackpot
 ## Title: ElvUI Additional Fonts
 ## IconTexture: Interface\AddOns\ElvUI_AdditionalFonts\Media\crackpot
-## Version: 1.7.5
+## Version: 1.7.6
 ## Notes: Adds additional fonts to ElvUI.
 ## RequiredDeps: ElvUI
 
 ElvUI_AdditionalFonts.lua
-
-
